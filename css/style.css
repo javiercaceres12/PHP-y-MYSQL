@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(131, 136, 134) !important; 
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    background-color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    border: solid 4px ;
+    border-radius: 3px;
+}
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nombre{
+    top: 20px;
+}
+
+.label{
+    font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: black;
+}
+
+.name , .last_name, .user, .password, .btn-submit{
+    width: 200px;
+    height: 30px;
+    border: solid 3px ;
+    
+}
+
+.btn-submit{
+    background-color: cornflowerblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.okey{
+    color: rgb(123, 250, 4);
+}
+
+.error{
+    color:red;
+    font-size: 17px;
+}
